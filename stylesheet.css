@@ -7,16 +7,23 @@ h1{
 	padding: 10px;
 	text-align: center;
 }
+h2{
+	text-align: center;
+	padding-bottom: 5px;
+}
 p{
 	text-align: center;
+	font-size: 15px;
 }
 .navigation{
 	width: 100%;
 	height: 40px;
 	text-align: center;
-	color: #ffffff;
+	color: #fff;
 	position: fixed;
+	/*background-color: #C8E7F0;*/
 	background-color: #aaa;
+	z-index: 1;
 }
 .navigation li{
 	display: inline-block;
@@ -30,15 +37,33 @@ p{
 .contents{
 	width: 1170px;
 	margin: auto;
-	background-color: #cccccc;
-	height: 1000px;
 }
 .intro{
-	height: 400px;
-	background-color: #83C3BC;
+  height: 400px;
+  background: url('us.jpg');
+  background-position-y: -357px;
+  background-size: 1200px;
+}
+.transparency{
+	padding-top: 40px;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .35;
+	z-index: -1;
+	  margin-top: -57px;
+}
+.tr-text{
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
 }
 .about{
+	padding-top: 100px;
 	background-color: #fff;
 	color: #000;
 	height: 300px;
+}
+.primary-colors{
+	border: 1px solid;
 }
